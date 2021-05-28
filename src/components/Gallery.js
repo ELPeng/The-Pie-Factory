@@ -4,7 +4,7 @@ import logo from '../img/The Pie Factory Icon Elements/SVG/Pie.svg';
 function Gallery(){
 
     return(
-        <h2>Gallery</h2>
+        <h2 className="page-title">Gallery</h2>
     )
 }
 

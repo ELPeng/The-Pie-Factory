@@ -21,7 +21,7 @@ return (
                 <Route path="/orders" component={Orders} />
                 <Route path="/gallery" component={Gallery} />
             </Switch>
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <Footer />
         </div>
     </Router>
