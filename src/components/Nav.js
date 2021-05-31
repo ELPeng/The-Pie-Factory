@@ -12,7 +12,7 @@ function Nav(){
     };
 
     return(
-        <>
+        <>      
             <div className="top-bar">
                 <span className="top-bar">Orders must be placed by 12 o'clock noon the day prior to the scheduled delivery date</span>
             </div> 
@@ -21,17 +21,17 @@ function Nav(){
                     <Link style={navStyle} to='/products'>
                         <li>Products</li>
                     </Link>
-                    <Link style={navStyle} to='/about'>
-                        <li>About Us</li>
+                    <Link style={navStyle} to='/gallery'>
+                        <li>Gallery</li>
                     </Link>
                     <Link to='/'>
                         <img src={logo3} width={500} />
                     </Link>
-                    <Link style={navStyle} to='/gallery'>
-                        <li>Gallery</li>
+                    <Link style={navStyle} to='/about'>
+                        <li>About Us</li>
                     </Link>
-                    <Link style={navStyle} to='/orders'>
-                        <li>Orders</li>
+                    <Link style={navStyle} to='/faqs'>
+                        <li>FAQs</li>
                     </Link>
                 </ul>
             </nav>
