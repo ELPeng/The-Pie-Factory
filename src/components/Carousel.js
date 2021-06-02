@@ -10,12 +10,10 @@ const Gallery = () => {
         <Carousel fade>
             <Carousel.Item>
                 <img
-                // className="d-block w-100 h-100"
-                objectFit='cover'
-                width='100%'
-                maxHeight='100%'
-                src={pieImg}
-                alt="First slide"
+                    width='100%'
+                    height='250px'
+                    src={pieImg}
+                    alt="First slide"
                 />
                 <Carousel.Caption>
                 <h3>First slide label</h3>
@@ -24,28 +22,19 @@ const Gallery = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                // className="d-block w-100"
-                objectFit='contain'
-                width='100%'
-                maxHeight='100%'
-                src={mainImg}
-                alt="Second slide"
+                    src={mainImg}
+                    alt="Second slide"
                 />
-
                 <Carousel.Caption>
                 <h3>Second slide label</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img
-                className="d-block w-100"
-                src={dessertImg}
-                objectFit='cover'
-                maxHeight='100%'
-                alt="Third slide"
+                <img               
+                    src={dessertImg}
+                    alt="Third slide"
                 />
-
                 <Carousel.Caption>
                 <h3>Third slide label</h3>
                 <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -53,13 +42,9 @@ const Gallery = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                className="d-block w-100"
-                src={pastriesImg}
-                width='935'
-                height='535'
-                alt="Fourth slide"
+                    src={pastriesImg}
+                    alt="Fourth slide"
                 />
-
                 <Carousel.Caption>
                 <h3>Fourth slide label</h3>
                 <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>

@@ -32,7 +32,7 @@ function Homepage(){
             </div>
             <div className='grid-container'>
                 <div className='grid-item grid-item-main'>
-                    {/* <Carousel /> */}
+                    <Carousel />
                 </div>
                 <div className='grid-item grid-item-m grid-item-products'><img src={pieImg} /></div>
                 <div className='grid-item grid-item-s grid-item-orders'><img src={storeImg} /></div>

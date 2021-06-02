@@ -129,6 +129,11 @@ body{
 }
 
 /* ========== HOME PAGE ========= */
+.grid-item-main img{
+    width: 100%;
+    height: 401px;
+    object-fit: cover;
+}
 .home-container{
     display: flex; 
     flex-direction: column;
@@ -136,7 +141,6 @@ body{
     text-align: center;
     margin: 0 10%;
 }
-
 
 .grid-container{
     justify-content: center;
@@ -175,6 +179,7 @@ body{
 @media screen and (max-width: 1024px){
     .top-container{ display: none; }
     #main_logo{width: 100vw;}
+
     .grid-container{
         justify-content: center;
         display: grid;
@@ -190,10 +195,16 @@ body{
           "aboutus aboutus aboutus aboutus";
         margin-bottom: 50px;
       }
+    .grid-item-main img{
+        width: 100%;
+        height: 246px;
+        object-fit: cover;
+    }
     .grid-item-main{grid-area: main;}
     .grid-item-products{grid-area: products;}
     .grid-item-orders{grid-area: orders;}
     .grid-item-aboutus{grid-area: aboutus;}
+
 }
 
 /* ========== PRODUCTS PAGE ========= */
