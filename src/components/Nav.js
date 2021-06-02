@@ -1,40 +1,84 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import logo1 from '../img/The Pie Factory Icon Elements/SVG/Pie.svg';
-import logo2 from '../img/Pie Factory Logos CMYK/Two Color CMYK/Two Color CMYKVector.svg';
-import logo3 from '../img/Pie Factory Logos CMYK/One Color CMYK/One Color CMYKPNG.png';
+import Image from 'react-bootstrap/Image'
 
 
 function Nav(){
-    const navStyle = {
-        color: 'white',
-        textDecoration: 'none'
-    };
-
+    const handleClick = () =>  {
+        const navbar = document.getElementById("myTopnav");
+        if (navbar.className === "topnav") {
+          navbar.className += " responsive";
+        } else {
+          navbar.className = "topnav";
+        }
+      }
     return(
-        <>      
+        <>  
             <div className="top-bar">
-                <span className="top-bar">Orders must be placed by 12 o'clock noon the day prior to the scheduled delivery date</span>
+                <a href="javascript:void(0);" className="menu-icon" onClick={handleClick}>
+                    <div className="menu-icon-part"></div>
+                    <div className="menu-icon-part"></div>
+                    <div className="menu-icon-part"></div>
+                </a>
+                <span>The Pie Factory</span>
+            </div>          
+            <div className="topnav" id="myTopnav">
+
+                <Link className='nav-link' to='/'>
+                    <span>Home</span>
+                </Link>
+                <Link className='nav-link' to='/products'>
+                    <span>Products</span>
+                </Link>
+                <Link className='nav-link' to='/gallery'>
+                    <span>Gallery</span>
+                </Link>
+                <Link className='nav-link' to='/about'>
+                    <span>About Us</span>
+                </Link>
+                <Link className='nav-link' to='/faqs'>
+                    <span>FAQs</span>
+                </Link>
+
+
+            </div>
+
+
+
+
+
+
+
+
+            {/* <div className="top-bar">
+                <span>Orders must be placed by 12 o'clock noon the day prior to the scheduled delivery date</span>
             </div> 
             <nav>
+                <a href="javascript:void(0);" className="menu-icon">
+                    <div className="menu-icon-part"></div>
+                    <div className="menu-icon-part"></div>
+                    <div className="menu-icon-part"></div>
+                </a>
+                <h2 className='navbar-mobile-title'>The Pie Factory</h2>
                 <ul className="nav-links">
-                    <Link style={navStyle} to='/products'>
+                    <Link className='nav-link-style' to='/'>
+                        <li>Home</li>
+                    </Link>
+                    <Link className='nav-link-style' to='/products'>
                         <li>Products</li>
                     </Link>
-                    <Link style={navStyle} to='/gallery'>
+                    <Link className='nav-link-style' to='/gallery'>
                         <li>Gallery</li>
                     </Link>
-                    <Link to='/'>
-                        <img src={logo3} width={500} />
-                    </Link>
-                    <Link style={navStyle} to='/about'>
+                    <Link className='nav-link-style' to='/about'>
                         <li>About Us</li>
                     </Link>
-                    <Link style={navStyle} to='/faqs'>
+                    <Link className='nav-link-style' to='/faqs'>
                         <li>FAQs</li>
                     </Link>
                 </ul>
-            </nav>
+
+            </nav> */}
         </>
     )
 }

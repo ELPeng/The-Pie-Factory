@@ -16,7 +16,11 @@ function Footer(){
             <hr style={hrStyle}/> 
             <div className="footer-main">
                 <div className="footer-col">
-                    <img src={footerImg1} width="170" />
+                    <img 
+                        src={footerImg1} 
+                        width="170"
+                        className="footer-img"
+                     />
                 </div>
                 <div className="footer-col">
                     <ul>
@@ -27,7 +31,11 @@ function Footer(){
                     </ul>                 
                 </div>
                 <div className="footer-col">
-                    <img src={footerImg2} width="170" />
+                    <img 
+                        src={footerImg2} 
+                        width="170"
+                        className="footer-img"
+                     />
                 </div>
                 <div className="footer-col">
                     <ul>
@@ -38,7 +46,11 @@ function Footer(){
                     </ul> 
                 </div>
                 <div className="footer-col">
-                    <img src={footerImg3} width="170" />
+                    <img 
+                        src={footerImg3} 
+                        width="170"
+                        className="footer-img"
+                     />
                 </div>
             </div>
 

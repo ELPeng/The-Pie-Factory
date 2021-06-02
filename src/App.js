@@ -6,7 +6,6 @@ import About from './components/About'
 import Faqs from './components/Faqs'
 import Gallery from './components/Gallery'
 import Footer from './components/Footer'
-// import {Helmet} from 'react-helmet'
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
