@@ -10,9 +10,10 @@ const Gallery = () => {
         <Carousel fade>
             <Carousel.Item>
                 <img
-                className="d-block w-100"
-                width='935'
-                height='535'
+                // className="d-block w-100 h-100"
+                objectFit='cover'
+                width='100%'
+                maxHeight='100%'
                 src={pieImg}
                 alt="First slide"
                 />
@@ -23,9 +24,10 @@ const Gallery = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                className="d-block w-100"
-                width='935'
-                height='535'
+                // className="d-block w-100"
+                objectFit='contain'
+                width='100%'
+                maxHeight='100%'
                 src={mainImg}
                 alt="Second slide"
                 />
@@ -39,8 +41,8 @@ const Gallery = () => {
                 <img
                 className="d-block w-100"
                 src={dessertImg}
-                width='935'
-                height='535'
+                objectFit='cover'
+                maxHeight='100%'
                 alt="Third slide"
                 />
 

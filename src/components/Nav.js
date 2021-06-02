@@ -24,19 +24,19 @@ function Nav(){
             </div>          
             <div className="topnav" id="myTopnav">
 
-                <Link className='nav-link' to='/'>
+                <Link className='nav-link-button' to='/'>
                     <span>Home</span>
                 </Link>
-                <Link className='nav-link' to='/products'>
+                <Link className='nav-link-button' to='/products'>
                     <span>Products</span>
                 </Link>
-                <Link className='nav-link' to='/gallery'>
+                <Link className='nav-link-button' to='/gallery'>
                     <span>Gallery</span>
                 </Link>
-                <Link className='nav-link' to='/about'>
+                <Link className='nav-link-button' to='/about'>
                     <span>About Us</span>
                 </Link>
-                <Link className='nav-link' to='/faqs'>
+                <Link className='nav-link-button' to='/faqs'>
                     <span>FAQs</span>
                 </Link>
 

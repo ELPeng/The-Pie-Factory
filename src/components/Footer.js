@@ -6,7 +6,6 @@ import footerImg3 from '../img/The Pie Factory Icon Elements/SVG/Fresh Daily.svg
 function Footer(){
 
     const hrStyle = {
-        width: '85%' ,
         height: 4,
         background: '#967a3d'
     }
@@ -24,7 +23,7 @@ function Footer(){
                 </div>
                 <div className="footer-col">
                     <ul>
-                        <li className="footer-title">The Pie Factory</li>
+                        <li className="footer-title">THE PIE FACTORY</li>
                         <li>5611 Bellaire Blvd. Suite 128</li>
                         <li>Houston, TX 77081</li>
                         <li>(713) 666-8501</li>
@@ -39,7 +38,7 @@ function Footer(){
                 </div>
                 <div className="footer-col">
                     <ul>
-                        <li className="footer-title">Hours</li>
+                        <li className="footer-title">HOURS</li>
                         <li>Mon thru Fri 8:00am - 5:00pm</li>
                         <li>Saturday 9:00am - 2:00pm</li>
                         <li>Sunday Closed</li>

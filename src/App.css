@@ -16,6 +16,7 @@ body{
 #root > *{
     width: 100vw;
 }
+
 /* ========== MAIN TEXT STYLES ========= */
 .main-page{
     display: flex;
@@ -39,6 +40,7 @@ body{
 }
 
 /* ========== NAV BAR ========= */
+.top-bar{ display: none; }
 .topnav{
     display: flex;
     justify-content: space-around;
@@ -47,33 +49,16 @@ body{
     background: rgb(4, 4, 56);
     color: #ffffff
 }
-/* .nav-links{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    font-size: 1.5rem;
-    padding: 0;
-    margin: 0;
-}
-*/
- .nav-link-style{
+ .nav-link-button{
     color: white;
     text-decoration: none;
-    padding: 0.5rem;  
+    font-size: 1.5rem;
+    padding: 2rem 0;  
 } 
-.nav-link-style:hover{
+.nav-link-button:hover{
     color: #967a3d;
 }
-.top-bar{
-    background:#967a3d;
-    font-size: 1.2rem;
-    color: white;
-    line-height: 3;
-    text-align: right;
-    padding-right: 5%;
-}
+
 
 
 /* ========== NAV BAR (mobile) ========= */
@@ -120,11 +105,6 @@ body{
       display: block;
     }
     .topnav.responsive { display: block; }
-    .topnav.responsive .menu-icon {
-      position: absolute;
-      left: 0;
-      top: 0;
-    }
     .topnav.responsive a {
       float: none;
       display: block;
@@ -156,12 +136,16 @@ body{
     text-align: center;
     margin: 0 10%;
 }
+
+
 .grid-container{
     justify-content: center;
     display: grid;
-    gap: 10px 10px;
-    grid-template-columns: 230px 230px 230px 230px;
-    grid-template-rows: 300px 230px 200px 200px;
+    width: 1024px;
+    height: 800px;
+    gap: 5px 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px 200px;
     grid-template-areas: 
       "main main main main"
       "main main main main"
@@ -169,25 +153,50 @@ body{
       "products products aboutus aboutus";
     margin-bottom: 50px;
   }
-.grid-item-main{
-    grid-area: main;
-}
-.grid-item-products{
-    grid-area: products;
-}
+.grid-item-main{grid-area: main;}
+.grid-item-products{grid-area: products;}
+.grid-item-orders{grid-area: orders;}
+.grid-item-aboutus{grid-area: aboutus;}
 
-.grid-item-orders{
-    grid-area: orders;
-}
-.grid-item-aboutus{
-    grid-area: aboutus;
-}
 .grid-item{
     border: solid black 2px;
 }
+.grid-item-s img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.grid-item-m img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+/* ========== HOME PAGE (Mobile) ========= */
+@media screen and (max-width: 1024px){
+    .top-container{ display: none; }
+    #main_logo{width: 100vw;}
+    .grid-container{
+        justify-content: center;
+        display: grid;
+        width: 100vw;
+        height: 800px;
+        gap: 2px 0;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 250px 250px 150px 150px;
+        grid-template-areas: 
+          "main main main main"
+          "products products products products"
+          "orders orders orders orders"
+          "aboutus aboutus aboutus aboutus";
+        margin-bottom: 50px;
+      }
+    .grid-item-main{grid-area: main;}
+    .grid-item-products{grid-area: products;}
+    .grid-item-orders{grid-area: orders;}
+    .grid-item-aboutus{grid-area: aboutus;}
+}
 
-
-/*  */
+/* ========== PRODUCTS PAGE ========= */
 .tab-list {  border-bottom: 1px solid #ccc;
     padding-left: 0;
 }
@@ -249,14 +258,18 @@ body{
     width: 500px;
     height: 400px;
 }
+.main-page h3{
+    margin: 40px 0 30px 0;
+}
 /* ========== ABOUT PAGE (Mobile)========= */
 @media screen and (max-width: 600px){
     #map{
         width: 100%;
         height: 300px;
-        
+        margin-bottom: 50px;  
     }
 }
+
 /* ========== FAQs PAGE ========= */
 .faqs-main{
     margin: 0 auto 50px auto;
@@ -297,5 +310,20 @@ footer{
 @media screen and (max-width: 1100px){
     .footer-img{
         display: none;
+    }
+}
+@media screen and (max-width: 800px){
+    .footer-img{
+        display: none;
+    }
+    .footer-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .footer-col{
+        font-size: 1rem;
+        margin-bottom: 0;
+        text-align: center;
     }
 }
