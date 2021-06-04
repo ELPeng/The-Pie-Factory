@@ -9,6 +9,7 @@ function Products(){
             <div className="page-banner">
                 <h2>Products</h2>
             </div>
+            <div className="main-page">
             <Tabs>
                 <div label="Pies"> 
                     <ul>
@@ -88,8 +89,7 @@ function Products(){
                     </ul>
                 </div> 
             </Tabs>
-
-            
+            </div>       
         </>
     )
 }
