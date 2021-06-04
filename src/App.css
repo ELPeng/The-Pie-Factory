@@ -11,10 +11,10 @@ white: #ffffff
     box-sizing: border-box;
   }
 body{
-    width: fit-content;
+    max-width: 100%;
 }
 #root > *{
-    width: 100vw;
+    max-width: 100%;
 }
 
 /* ========== MAIN TEXT STYLES ========= */
@@ -27,10 +27,19 @@ body{
     font-size: 1.5rem;
 }
 .page-title{
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 2.5rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+}
+.page-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background: #83929F;
+    margin-bottom: 50px;
 }
 
 @media screen and (max-width:600px){
@@ -160,7 +169,15 @@ body{
 .grid-item-main{grid-area: main;}
 .grid-item-products{grid-area: products;}
 .grid-item-orders{grid-area: orders;}
-.grid-item-aboutus{grid-area: aboutus;}
+.grid-item-aboutus{
+    grid-area: aboutus;
+    display: flex;
+    background: #EFC9B8;
+    color: white;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+}
 
 .grid-item{
     border: solid black 2px;
@@ -193,7 +210,7 @@ body{
           "products products products products"
           "orders orders orders orders"
           "aboutus aboutus aboutus aboutus";
-        margin-bottom: 50px;
+        margin-bottom: 0;
       }
     .grid-item-main img{
         width: 100%;
@@ -244,24 +261,48 @@ body{
     margin-bottom: 50px;
 }
 
-.hs-container {
+.photo-grid-container {
     width: 80%;
     margin: 1rem auto;
     justify-content: center;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(4, 250px);
-    grid-template-rows: repeat(2, minmax(200px, 1fr));
+    grid-template-rows: repeat(2, 200px);
     
   }
-.hs-container > *{
+.photo-grid-item{
     border: solid black 2px;
 }
+
 .gallery-cat-title{
     display:inline-block;
     position: relative;
     left: calc(50% - 2*250px - 15px);
     font-size: 1.5rem;
+}
+/* ========== GALLERY PAGE (mobile) ========= */
+@media screen and (max-width: 1024px){
+    .photo-grid-container {
+        width: 80%;
+        margin: 1rem auto;
+        justify-content: center;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        /* grid-template-rows: repeat(2, minmax(200px, 1fr)); */
+        
+      }
+    .photo-grid-item{
+        border: solid black 2px;
+        height: 200px;
+    }
+    .gallery-cat-title{
+        display:inline-block;
+        position: relative;
+        left: 10%;
+        font-size: 1.5rem;
+    }
 }
 
 /* ========== ABOUT PAGE ========= */

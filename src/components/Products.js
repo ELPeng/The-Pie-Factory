@@ -6,7 +6,9 @@ function Products(){
 
     return(
         <>
-            <h2 className="page-title">Products</h2>
+            <div className="page-banner">
+                <h2>Products</h2>
+            </div>
             <Tabs>
                 <div label="Pies"> 
                     <ul>

@@ -7,7 +7,10 @@ import pastriesImg from '../img/photos/pastries.jpg'
 
 const Gallery = () => {
     return(
-        <Carousel fade>
+        <Carousel fade
+            nextLabel={null}
+            prevLabel={null}
+            indicators={true}>
             <Carousel.Item>
                 <img
                     width='100%'

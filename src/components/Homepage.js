@@ -1,11 +1,11 @@
 import React from 'react'
 import pieImg from '../img/photos/pie1.jpg'
 import mainImg from '../img/photos/main.jpg'
+import galleryImg from '../img/photos/gallery.jpg'
 import storeImg from '../img/photos/storefront.png'
 import logo2 from '../img/Pie Factory Logos CMYK/Two Color CMYK/Two Color Logo.png';
 import Carousel from './Carousel.js'
-import Image from 'react-bootstrap/Image'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 function Homepage(){
     const titleStyle = {
         fontSize: 48,
@@ -33,11 +33,20 @@ function Homepage(){
             <div className='grid-container'>
                 <div className='grid-item grid-item-main'>
                     <Carousel />
+                </div>    
+                <div className='grid-item grid-item-m grid-item-products'>
+                    <Link to='/products'>
+                        <img src={pieImg} />
+                    </Link>
                 </div>
-                <div className='grid-item grid-item-m grid-item-products'><img src={pieImg} /></div>
-                <div className='grid-item grid-item-s grid-item-orders'><img src={storeImg} /></div>
-                <div className='grid-item grid-item-s grid-item-aboutus'></div>
+                <div className='grid-item grid-item-s grid-item-orders'>
+                    <Link to='/products'>
+                        <img src={storeImg} />
+                    </Link>
+                </div>
 
+                <div className='grid-item grid-item-s grid-item-aboutus'><span>FAQs</span></div>
+                
             </div>
         </div>
         
