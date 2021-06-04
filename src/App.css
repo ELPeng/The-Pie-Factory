@@ -13,17 +13,20 @@ white: #ffffff
 body{
     max-width: 100%;
 }
-#root > *{
-    max-width: 100%;
-}
+
 
 /* ========== MAIN TEXT STYLES ========= */
 .main-page{
+    max-width: 1024px;
     display: flex;
     flex-direction: column;
-    margin: 0 10% 3% 10%;
+    margin: 0 auto 50px auto;
     font-family: avenir;
 }
+@media screen and (max-width:1024px){
+    .main-page{ padding: 0 20px; }
+}
+
 .page-text{
     font-size: 1.5rem;
 }
@@ -137,27 +140,23 @@ body{
 }
 
 /* ========== HOME PAGE ========= */
-.grid-item-main img{
-    width: 100%;
-    height: 401px;
-    object-fit: cover;
-}
 .home-container{
+    max-width: 1024px;
     display: flex; 
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 0 10%;
+    margin: 0 auto;
 }
 
 .grid-container{
     justify-content: center;
     display: grid;
     width: 1024px;
-    height: 800px;
-    gap: 5px 5px;
+    height: 850px;
+    gap:  5px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-rows: 250px 200px 200px 200px;
     grid-template-areas: 
       "main main main main"
       "main main main main"
@@ -173,14 +172,25 @@ body{
     display: flex;
     background: #EFC9B8;
     color: white;
-    font-size: 2rem;
     align-items: center;
     justify-content: center;
 }
-
+.grid-item-main img{
+    width: 100%;
+    height: 455px;
+    object-fit: cover;
+}
 .grid-item{
-    font-family: brandonsmith;
-    border: solid black 2px;
+    position: relative;
+    font-family: thistails; 
+    font-size: 2.5rem;
+
+}
+.grid-item-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .grid-item-s img{
     width: 100%;
@@ -214,7 +224,7 @@ body{
       }
     .grid-item-main img{
         width: 100%;
-        height: 246px;
+        height: 250px;
         object-fit: cover;
     }
     .grid-item-main{grid-area: main;}
