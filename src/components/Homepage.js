@@ -22,13 +22,8 @@ function Homepage(){
     return(
         <div className='home-container'>  
             <div className='top-container'>
-                <img src={logo2}
-                    id='main_logo' 
-                    display='block'
-                    margin='auto'
-                />
                 {/* <h2 style={titleStyle}>Welcome to The Pie Factory!</h2> */}
-                <p style={homeStyle}>The Pie Factory is a full service bakery making savory pies, cakes, pastries, cookies, and a full line of specialty dessert cakes, as well as wedding cakes, birthday cakes, and cakes for all occasions. We also design custom images on cakes and cookies. Through all of these edible delights, we believe we are making memories which will stay with you forever.</p>
+                {/* <p style={homeStyle}>The Pie Factory is a full service bakery making savory pies, cakes, pastries, cookies, and a full line of specialty dessert cakes, as well as wedding cakes, birthday cakes, and cakes for all occasions. We also design custom images on cakes and cookies. Through all of these edible delights, we believe we are making memories which will stay with you forever.</p> */}
             </div>
             <div className='grid-container'>
                 <div className='grid-item grid-item-main'>
