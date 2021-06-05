@@ -9,17 +9,17 @@ function Gallery(){
                 <h2>Gallery</h2>
             </div>
             <div className='gallery-category'>
-                <h3 className='gallery-cat-title'>Pies</h3>
-                <div className='photo-grid-container'>
-                    <div className='photo-grid-item'> test1 </div>
-                    <div className='photo-grid-item'> test2 </div>
-                    <div className='photo-grid-item'> test3 </div>
-                    <div className='photo-grid-item'> test4 </div>
-                    <div className='photo-grid-item'> test5 </div>
-                    <div className='photo-grid-item'> test6 </div>
-                    <div className='photo-grid-item'> test7 </div>
-                    <div className='photo-grid-item'> test8 </div>
-                </div>
+                    <h3 className='gallery-cat-title'>Pies</h3>
+                    <div className='photo-grid-container'>
+                        <div className='photo-grid-item'> test1 </div>
+                        <div className='photo-grid-item'> test2 </div>
+                        <div className='photo-grid-item'> test3 </div>
+                        <div className='photo-grid-item'> test4 </div>
+                        <div className='photo-grid-item'> test5 </div>
+                        <div className='photo-grid-item'> test6 </div>
+                        <div className='photo-grid-item'> test7 </div>
+                        <div className='photo-grid-item'> test8 </div>
+                    </div>
             </div>
             <div className='gallery-category'>
                 <h3 className='gallery-cat-title'>Cakes</h3>
