@@ -15,40 +15,15 @@ function Nav(){
       }
     return(
         <>  
-            {/* <div className="top-bar">
-                <a href="javascript:void(0);" className="menu-icon" onClick={handleClick}>
-                    <div className="menu-icon-part"></div>
-                    <div className="menu-icon-part"></div>
-                    <div className="menu-icon-part"></div>
-                </a>
-                <span>The Pie Factory</span>
-            </div>          
-            <div className="topnav" id="myTopnav">
-                <Link className='nav-link-button' to='/'>
-                    <img src={logo2} width='300'/>
-                </Link>
-                <Link className='nav-link-button' to='/products'>
-                    <span>Products</span>
-                </Link>
-                <Link className='nav-link-button' to='/gallery'>
-                    <span>Gallery</span>
-                </Link>
-                <Link className='nav-link-button' to='/about'>
-                    <span>About Us</span>
-                </Link>
-                <Link className='nav-link-button' to='/faqs'>
-                    <span>FAQs</span>
-                </Link>
-
-            </div> */}
-
             <div className="top-bar">
                 <a href="javascript:void(0);" className="menu-icon" onClick={handleClick}>
                     <div className="menu-icon-part"></div>
                     <div className="menu-icon-part"></div>
                     <div className="menu-icon-part"></div>
                 </a>
-                <span>The Pie Factory</span>
+                <a href="/" className="mobile-home-icon" >
+                    <span>The Pie Factory</span>
+                </a>
             </div>          
             <div className="topnav" id="myTopnav">
                 <div className="nav-flex-container">
