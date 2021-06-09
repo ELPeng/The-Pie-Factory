@@ -34,8 +34,10 @@ function Nav(){
                     </div>
                     <div className='nav-flex-right'>
                         <div className='nav-flex-right_top'>
-                            <span className='call-text'>Call Now to Order : </span>
+                            <span className='nav-text'>Contact Now to Order : </span>
                             <span>713.666.8501</span>
+                            <br />
+                            <span style={{fontSize: '1rem'}}>thepiefactoryhouston@gmail.com</span>
                         </div>
                         <div className='nav-flex-right_bot'>
                             <Link className='nav-link-button' to='/products'>
