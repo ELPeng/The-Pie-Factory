@@ -42,6 +42,9 @@ body{
     background: #83929F;
     margin-bottom: 50px;
 }
+a{
+    text-decoration: none !important;
+}
 
 @media screen and (max-width:600px){
     .page-text{
@@ -92,7 +95,6 @@ body{
  .nav-link-button{
     color: white;
     font-weight:bold;
-    text-decoration: none;
     font-size: 1.5rem;
     padding: 2rem 0;  
 } 
@@ -137,7 +139,6 @@ body{
         color: #f2f2f2;
         text-align: center;
         padding: 22px 16px;
-        text-decoration: none;
         font-size: 1rem;
         border-bottom: solid #f2f2f2 1px;
     }
@@ -217,7 +218,7 @@ body{
 .grid-item-main{grid-area: main;}
 .grid-item-products{grid-area: products;}
 .grid-item-orders{grid-area: orders;}
-.grid-item-aboutus{
+.grid-item-faqs{
     grid-area: aboutus;
     display: flex;
     background: #BDD1C5;
@@ -252,6 +253,15 @@ body{
     height: 100%;
     object-fit: cover; 
 }
+
+.item-test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 509.5px;
+    height: 200px;
+}
+
 /* ========== HOME PAGE (Mobile) ========= */
 @media screen and (max-width: 1024px){
     .top-container{ display: none; }
@@ -284,7 +294,15 @@ body{
     .grid-item-orders{grid-area: orders;}
     .grid-item-aboutus{grid-area: aboutus;}
 
+    .item-test{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 150px;
+    }
 }
+
 
 /* ========== PRODUCTS PAGE ========= */
 .tab-list {  border-bottom: 1px solid #ccc;

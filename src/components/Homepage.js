@@ -36,17 +36,16 @@ function Homepage(){
                     </Link>
                 </div>
                 <div className='grid-item grid-item-s grid-item-orders'>
-                    <Link to='/products'>
-                        <img src={storeImg} />
-                    </Link>
                     <Link to='/about'>
+                        <img src={storeImg} />
                         <span className="grid-item-text">About Us</span>
                     </Link>
                 </div>
-
-                <div className='grid-item grid-item-s grid-item-aboutus'>
+                <div className='grid-item grid-item-s grid-item-faqs'>
                     <Link to='/faqs'>
-                    <span className="grid-item-text">FAQs</span>
+                        <div className = "item-test">
+                        <span>FAQs</span>
+                        </div>
                     </Link>
                 </div>
 
