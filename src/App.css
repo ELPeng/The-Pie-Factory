@@ -210,16 +210,16 @@ a{
     grid-template-areas: 
       "main main main main"
       "main main main main"
-      "products products orders orders"
-      "products products aboutus aboutus";
+      "products products about about"
+      "products products faqs faqs";
     margin-top: 50px;
     margin-bottom: 50px;
   }
 .grid-item-main{grid-area: main;}
 .grid-item-products{grid-area: products;}
-.grid-item-orders{grid-area: orders;}
+.grid-item-about{grid-area: about;}
 .grid-item-faqs{
-    grid-area: aboutus;
+    grid-area: faqs;
     display: flex;
     background: #BDD1C5;
     color: white;
@@ -235,7 +235,6 @@ a{
     position: relative;
     font-family: thistails; 
     font-size: 2.5rem;
-
 }
 .grid-item-text{
     position: absolute;
@@ -280,8 +279,8 @@ a{
         grid-template-areas: 
           "main main main main"
           "products products products products"
-          "orders orders orders orders"
-          "aboutus aboutus aboutus aboutus";
+          "about about about about"
+          "faqs faqs faqs faqs";
 
       }
     .grid-item-main img{
@@ -291,8 +290,8 @@ a{
     }
     .grid-item-main{grid-area: main;}
     .grid-item-products{grid-area: products;}
-    .grid-item-orders{grid-area: orders;}
-    .grid-item-aboutus{grid-area: aboutus;}
+    .grid-item-about{grid-area: about;}
+    .grid-item-faqs{grid-area: faqs;}
 
     .item-test{
         display: flex;

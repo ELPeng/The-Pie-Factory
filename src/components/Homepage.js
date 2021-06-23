@@ -1,24 +1,9 @@
 import React from 'react'
 import pieImg from '../img/photos/pie1.jpg'
-import mainImg from '../img/photos/main.jpg'
-import galleryImg from '../img/photos/gallery.jpg'
 import storeImg from '../img/photos/storefront.png'
-import logo2 from '../img/Pie Factory Logos CMYK/Two Color CMYK/Two Color Logo.png';
 import Carousel from './Carousel.js'
 import {Link} from 'react-router-dom'
 function Homepage(){
-    const titleStyle = {
-        fontSize: 48,
-        textAlign: 'center',
-        marginTop: 50,
-        marginBottom: 50
-    }
-    const homeStyle = {
-        fontSize: 24,
-        marginTop: 20,
-        marginBottom: 40
-    }
-
     return(
         <div className='home-container'>  
             <div className='top-container'>
@@ -35,7 +20,7 @@ function Homepage(){
                         <span className="grid-item-text">Products</span>
                     </Link>
                 </div>
-                <div className='grid-item grid-item-s grid-item-orders'>
+                <div className='grid-item grid-item-s grid-item-about'>
                     <Link to='/about'>
                         <img src={storeImg} />
                         <span className="grid-item-text">About Us</span>
