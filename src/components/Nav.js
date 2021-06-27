@@ -1,8 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import logo2 from '../img/Pie Factory Logos CMYK/Two Color CMYK/Two Color Logo.png';
-import Image from 'react-bootstrap/Image'
-
 
 function Nav(){
     const handleClick = () =>  {
@@ -55,18 +53,7 @@ function Nav(){
                         </div>
                     </div>
                 </div>
-
-
-
-
-                
-
             </div>
-
-
-
-
-
         </>
     )
 }

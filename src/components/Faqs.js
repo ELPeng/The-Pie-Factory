@@ -1,8 +1,4 @@
-import React from 'react'
-import logo from '../img/The Pie Factory Icon Elements/SVG/Pie.svg';
-
 function Faqs(){
-
     return(
         <>
             <div className="page-banner">
@@ -21,6 +17,5 @@ function Faqs(){
     </>
     )
 }
-
 
 export default Faqs

@@ -263,7 +263,6 @@ a{
 
 /* ========== HOME PAGE (Mobile) ========= */
 @media screen and (max-width: 1024px){
-    .top-container{ display: none; }
     #main_logo{width: 100vw;}
 
     .grid-container{

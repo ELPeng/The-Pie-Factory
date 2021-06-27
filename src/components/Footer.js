@@ -4,7 +4,6 @@ import footerImg2 from '../img/The Pie Factory Icon Elements/SVG/Family Owned Te
 import footerImg3 from '../img/The Pie Factory Icon Elements/SVG/Fresh Daily.svg'
 
 function Footer(){
-
     const hrStyle = {
         height: 4,
         background: '#967a3d'
@@ -52,11 +51,8 @@ function Footer(){
                      />
                 </div>
             </div>
-
-
         </footer>
     )
 }
-
 
 export default Footer
