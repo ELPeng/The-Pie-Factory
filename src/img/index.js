@@ -1,0 +1,37 @@
+import pie1 from "../img/pies/pie-1.jpeg"
+import pie2 from "../img/pies/pie-2.jpeg"
+import pie3 from "../img/pies/pie-3.jpeg"
+import pie4 from "../img/pies/pie-4.jpeg"
+import pie5 from "../img/pies/pie-5.jpeg"
+import pie6 from "../img/pies/pie-6.jpeg"
+
+import cake1 from "../img/cakes/cake-1.jpg"
+import cake2 from "../img/cakes/cake-2.jpg"
+import cake3 from "../img/cakes/cake-3.jpg"
+import cake4 from "../img/cakes/cake-4.jpg"
+import cake5 from "../img/cakes/cake-5.jpg"
+import cake6 from "../img/cakes/cake-6.jpg"
+import cake7 from "../img/cakes/cake-7.jpg"
+import cake8 from "../img/cakes/cake-8.jpg"
+import cake9 from "../img/cakes/cake-9.jpeg"
+import cake10 from "../img/cakes/cake-10.jpeg"
+import cake11 from "../img/cakes/cake-11.jpeg"
+import cake12 from "../img/cakes/cake-12.jpeg"
+import cake13 from "../img/cakes/cake-13.jpg"
+
+import dessert1 from "../img/desserts/dessert-1.jpeg"
+import dessert2 from "../img/desserts/dessert-2.jpeg"
+import dessert3 from "../img/desserts/dessert-3.jpeg"
+import dessert4 from "../img/desserts/dessert-4.jpeg"
+import dessert5 from "../img/desserts/dessert-5.jpeg"
+import dessert6 from "../img/desserts/dessert-6.jpg"
+import dessert7 from "../img/desserts/dessert-7.jpg"
+import dessert8 from "../img/desserts/dessert-8.jpg"
+import dessert9 from "../img/desserts/dessert-9.jpg"
+import dessert10 from "../img/desserts/dessert-10.jpg"
+import dessert11 from "../img/desserts/dessert-11.jpg"
+import dessert12 from "../img/desserts/dessert-12.jpg"
+
+export { pie1, pie2, pie3, pie4, pie5, pie6 }
+export { cake1, cake2, cake3, cake4, cake5, cake6, cake7, cake8, cake9, cake10, cake11, cake12, cake13 } 
+export { dessert1, dessert2, dessert3, dessert4, dessert5, dessert6, dessert7, dessert8, dessert9, dessert10, dessert11, dessert12 } 
