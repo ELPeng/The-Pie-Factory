@@ -1,4 +1,3 @@
-import logo from './img/The Pie Factory Icon Elements/SVG/Cookie.svg';
 import Homepage from './components/Homepage'
 import Nav from './components/Nav'
 import Products from './components/Products'
@@ -23,7 +22,6 @@ return (
                 <Route path="/faqs" component={Faqs} />
                 <Route path="/gallery" component={Gallery} />
             </Switch>
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <Footer />
         </div>
     </Router>

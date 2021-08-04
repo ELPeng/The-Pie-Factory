@@ -1,6 +1,7 @@
 import Tabs from './Tabs'
 
 function Products(){
+
     return(
         <>
             <div className="page-banner">

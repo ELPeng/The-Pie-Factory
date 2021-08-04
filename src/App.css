@@ -360,7 +360,7 @@ a{
     border: 5px solid #333;
     max-width: 100%;
     height: auto;
-    object-fit: cover;
+    object-fit: fill;
     transition: opacity 0.25s ease-in-out;
     align-self: center;
   }
