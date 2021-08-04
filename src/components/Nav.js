@@ -26,7 +26,7 @@ function Nav(){
             <div className="topnav" id="myTopnav">
                 <div className="nav-flex-container">
                     <div className='nav-flex-left'>
-                        <Link className='nav-link-button' to='/'>
+                        <Link className='nav-link-logo' to='/'>
                             <img src={logo2} width='300'/>
                         </Link>
                     </div>
