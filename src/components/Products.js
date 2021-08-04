@@ -1,14 +1,26 @@
 import Tabs from './Tabs'
-
+import { products } from '../img'
 function Products(){
-
     return(
         <>
             <div className="page-banner">
                 <h2>Products</h2>
             </div>
             <div className="main-page">
-            <Tabs>
+                <div className = "product-grid-container">
+                    {products.map(product => {
+                        return (
+                        <div className="product-card">
+                            <img src={product.photo} width="95%"/>
+                            <p className="product-name">{product.name}</p>
+                            <p className="product-price">{product.price}</p>
+                        </div>
+                        )
+                    })}                
+                </div>
+
+
+            {/* <Tabs>
                 <div label="Pies"> 
                     <ul>
                         <li>Apple</li>
@@ -86,7 +98,7 @@ function Products(){
                         <li><em>Ask for more baked goods!</em></li>
                     </ul>
                 </div> 
-            </Tabs>
+            </Tabs> */}
             </div>       
         </>
     )

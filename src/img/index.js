@@ -4,8 +4,41 @@ const pies = ["./img/pies/pie-1.jpeg", "./img/pies/pie-2.jpeg", "./img/pies/pie-
 
 const desserts = ["./img/desserts/dessert-1.jpeg", "./img/desserts/dessert-2.jpeg", "./img/desserts/dessert-3.jpeg", "./img/desserts/dessert-4.jpeg", "./img/desserts/dessert-5.jpeg", "./img/desserts/dessert-6.jpg", "./img/desserts/dessert-7.jpg", "./img/desserts/dessert-8.jpg", "./img/desserts/dessert-9.jpg", "./img/desserts/dessert-10.jpg", "./img/desserts/dessert-11.jpg", "./img/desserts/dessert-12.jpg"]
 
+const products = [
+    {
+        name: 'Apple',
+        price: '$20.00',
+        photo: "./img/pies/pie-1.jpeg"
+    },
+    {
+        name: 'Chocolate Cream',
+        price: '$20.00',
+        photo: "./img/pies/pie-2.jpeg"
+    },
+    {
+        name: 'Coconut Cream',
+        price: '$20.00',
+        photo: "./img/pies/pie-3.jpeg"
+    },
+    {
+        name: 'Dutch Apple',
+        price: '$20.00',
+        photo: "./img/pies/pie-4.jpeg"
+    },
+    {
+        name: 'Egg Custard',
+        price: '$20.00',
+        photo: "./img/pies/pie-5.jpeg"
+    },
+    {
+        name: 'Pecan',
+        price: '$20.00',
+        photo: "./img/pies/pie-6.jpeg"
+    },  
+]
 
-export { cakes, desserts, pies }
+
+export { cakes, desserts, pies, products }
 
 
 
