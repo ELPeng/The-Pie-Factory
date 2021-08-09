@@ -1,0 +1,37 @@
+/*
+Colors:
+chocolate: #6C3904
+gold: #967a3d
+wheat: #c2b59b
+black: #00000
+charcoal: #58595b
+white: #ffffff
+Natural and Earthy:
+gold: #8D8741
+blue: #659DBD
+peach: #DAAD86
+lightbrown: #BC986A
+tan: #FBEEC1
+*/
+* {
+    box-sizing: border-box;
+}
+body{
+    max-width: 100%;
+}
+
+@import './mainText';
+@import './navBar';
+@import './homePage';
+@import './products';
+@import './gallery';
+@import './about';
+@import './faqs';
+@import './footer';
+
+
+
+
+
+
+

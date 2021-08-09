@@ -1,0 +1,105 @@
+/* ========== HOME PAGE ========= */
+.home-container{
+    max-width: 1024px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.grid-container{
+    justify-content: center;
+    display: grid;
+    width: 1024px;
+    height: 850px;
+    gap:  5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px 200px 200px 200px;
+    grid-template-areas: 
+      "main main main main"
+      "main main main main"
+      "products products about about"
+      "products products faqs faqs";
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.grid-item{
+    position: relative;
+    font-family: thistails; 
+    font-size: 2.5rem;
+    transition: .5s ease;
+    opacity:0.8;
+
+    &:hover{
+        opacity: 1;
+    }
+}
+
+.grid-item-main{
+    grid-area: main;
+    img{
+        width: 100%;
+        height: 455px;
+        object-fit: cover;
+    }
+}
+.grid-item-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+}
+.grid-item-products{
+    grid-area: products;
+
+    .grid-item-text{
+        background:#AC3B61;
+        padding: 10px;
+        box-shadow:12px 12px 2px 1px rgba(0, 0, 255, .4)
+    }
+}
+.grid-item-about{ grid-area: about; }
+.grid-item-faqs{
+    grid-area: faqs;
+    display: flex;
+    background: #0f292f; 
+    align-items: center;
+    justify-content: center;
+} 
+.grid-item-s img, .grid-item-m img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+/* ========== HOME PAGE (Mobile) ========= */
+@media screen and (max-width: 1024px){
+    #main_logo{width: 100vw;}
+
+    .grid-container{
+        justify-content: center;
+        width: 100vw;
+        height: 800px;
+        margin-top: 0;
+        margin-bottom: 0;
+        display: grid;
+        gap: 2px 0;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 250px 250px 150px 150px;
+        grid-template-areas: 
+          "main main main main"
+          "products products products products"
+          "about about about about"
+          "faqs faqs faqs faqs";
+    }
+    .grid-item-main{
+        grid-area: main;
+        img{ height: 250px; }
+    }
+    .grid-item-products{grid-area: products;}
+    .grid-item-about{grid-area: about;}
+    .grid-item-faqs{grid-area: faqs;}
+}
+

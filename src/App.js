@@ -5,7 +5,7 @@ import About from './components/About'
 import Faqs from './components/Faqs'
 import Gallery from './components/Gallery'
 import Footer from './components/Footer'
-import './App.css';
+import './styles/App.scss';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 function App() {

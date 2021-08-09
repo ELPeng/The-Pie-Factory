@@ -1,0 +1,46 @@
+
+/* ========== GALLERY PAGE ========= */
+.gallery-page{
+    margin-bottom: 50px;
+}
+
+.photo-grid-container {
+    width: 80%;
+    margin: 1rem auto 4rem auto;
+    justify-content: center;
+    display: grid;
+    grid-gap: 10px;
+  }
+.grid-pies{
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+}
+.grid-cakes{
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+}
+.grid-desserts{
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
+}
+
+.photo-grid-item{
+    border: 5px solid #333;
+    align-self: center;
+    overflow: hidden;
+    img{
+        max-width: 100%;
+        object-fit: fill;
+        transition: transform .3s;  
+        
+        &:hover{
+            cursor: pointer;
+            transform:scale(1.15); 
+        }
+    }
+  }
+
+.gallery-cat-title{
+    font-family: brandonsmith;
+    font-size: 3rem;
+    display:inline-block;
+    position: relative;
+    left: 10%;
+}

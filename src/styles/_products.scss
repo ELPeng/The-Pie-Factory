@@ -1,0 +1,21 @@
+/* ========== PRODUCTS PAGE ========= */
+.product-grid-container{
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+}
+.product-card{
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: rgb(244, 244, 244);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 10px 0 20px 0;
+    
+    &:hover{
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+}
+.product-name{
+    padding-top: 20px;
+}
