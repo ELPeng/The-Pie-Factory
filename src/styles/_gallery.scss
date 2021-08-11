@@ -1,3 +1,4 @@
+@import './variables';
 
 /* ========== GALLERY PAGE ========= */
 .gallery-page{
@@ -22,7 +23,7 @@
 }
 
 .photo-grid-item{
-    border: 5px solid #333;
+    border: 3px solid #967a3d;
     align-self: center;
     overflow: hidden;
     img{

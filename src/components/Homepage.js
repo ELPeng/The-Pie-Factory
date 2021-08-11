@@ -25,7 +25,7 @@ function Homepage(){
                 </div>
                 <div className='grid-item grid-item-s grid-item-faqs'>
                     <Link to='/faqs'>
-                            <span className="grid-item-text">FAQs</span>
+                            <div className="grid-item-text">FAQs</div>
                     </Link>
                 </div>
 
