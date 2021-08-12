@@ -1,6 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import logo2 from '../img/Pie Factory Logos CMYK/Two Color CMYK/Two Color Logo.png';
+import logo2 from '../img/Pie Factory Logos CMYK/One Color CMYK/Logo_gold.png'
+// import logo2 from '../img/Pie Factory Logos CMYK/Two Color CMYK/Two Color Logo.png';
+// src\img\Pie Factory Logos CMYK\One Color CMYK\Logo_gold.png
 
 function Nav(){
     const handleClick = () =>  {

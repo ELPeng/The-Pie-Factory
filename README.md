@@ -14,3 +14,12 @@ The purpose of this project was to use React to build a SPA for a Houston wholes
     - Set overflow: hidden and transition: transform 0.3s
     - Set nested img property transform: scale(1.15)
 
+
+
+
+
+
+### Terminology
+- A Lightbox popup is a window overlay that appears on top of a webpage. When popup appears, the background is often dimmed and disabled - usually used for expanding images in a gallery
+- Accordian is an expandable/collapsable menu bar that can show/hide text or other content: see FAQs section 
+

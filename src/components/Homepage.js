@@ -27,9 +27,7 @@ function Homepage(){
                     <Link to='/faqs'>
                             <div className="grid-item-text">FAQs</div>
                     </Link>
-                </div>
-
-                
+                </div>    
             </div>
         </div>
         
