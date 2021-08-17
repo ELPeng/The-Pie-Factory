@@ -9,6 +9,7 @@
     background: #550C18;
     position: relative;
     &:before{
+        visibility: visible;
         content: "";
         position: absolute;
         width: 100%;
@@ -80,6 +81,11 @@
 
 /* ========== NAV BAR (mobile) ========= */
 @media screen and (max-width: 1024px){
+    .topnav{
+        &:before{
+            visibility: hidden;
+        }
+    }
     .top-bar{
         display: flex;
         align-items: center;
