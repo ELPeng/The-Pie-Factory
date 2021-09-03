@@ -2,7 +2,7 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 import pieImg from '../img/photos/pie1.jpg'
 import mainImg from '../img/photos/main.jpg'
-import dessertImg from '../img/photos/dessert1.jpg'
+import dessertImg from '../img/photos/assortCupcakes.jpeg'
 import pastriesImg from '../img/photos/pastries.jpg'
 
 const Gallery = () => {
@@ -13,8 +13,6 @@ const Gallery = () => {
             indicators={true}>
             <Carousel.Item>
                 <img
-                    width='100%'
-                    height='250px'
                     src={pieImg}
                     alt="First slide"
                 />

@@ -1,10 +1,10 @@
-const cakes = ["./img/cakes/cake-1.jpg", "./img/cakes/cake-2.jpg", "./img/cakes/cake-3.jpg", "./img/cakes/cake-4.jpg", "./img/cakes/cake-5.jpg", "./img/cakes/cake-6.jpg", "./img/cakes/cake-7.jpg", "./img/cakes/cake-8.jpg", "./img/cakes/cake-9.jpeg", "./img/cakes/cake-10.jpeg", "./img/cakes/cake-11.jpeg", "./img/cakes/cake-12.jpeg", "./img/cakes/cake-13.jpg"]
+const cakes = ["./img/cakes/cake-1.jpg", "./img/cakes/cake-2.jpg", "./img/cakes/cake-3.jpg", "./img/cakes/cake-4.jpg", "./img/cakes/cake-5.jpg", "./img/cakes/cake-6.jpg", "./img/cakes/cake-7.jpg", "./img/cakes/cake-8.jpg", "./img/cakes/cake-9.jpg", "./img/cakes/cake-10.jpg", "./img/cakes/cake-11.jpg", "./img/cakes/cake-12.jpg", "./img/cakes/cake-13.jpg", "./img/cakes/cake-14.jpg"]
 
-const cookies = ["./img/cookies/cookie-1.jpeg", "./img/cookies/cookie-2.jpg", "./img/cookies/cookie-3.jpeg", "./img/cookies/cookie-4.jpeg", "./img/cookies/cookie-5.jpg", "./img/cookies/cookie-6.jpeg", "./img/cookies/cookie-7.jpg", "./img/cookies/cookie-8.jpg"]
+const cookies = ["./img/cookies/cookie-1.jpg", "./img/cookies/cookie-2.jpg", "./img/cookies/cookie-3.jpg", "./img/cookies/cookie-4.jpg", "./img/cookies/cookie-5.jpg", "./img/cookies/cookie-6.jpg", "./img/cookies/cookie-7.jpg", "./img/cookies/cookie-8.jpg"]
 
-const desserts = ["./img/desserts/dessert-1.jpeg", "./img/desserts/dessert-2.jpeg", "./img/desserts/dessert-3.jpeg", "./img/desserts/dessert-4.jpeg", "./img/desserts/dessert-5.jpeg", "./img/desserts/dessert-6.jpg"]
+const cupcakes = ["./img/cupcakes/cupcake-1.jpg", "./img/cupcakes/cupcake-2.jpg", "./img/cupcakes/cupcake-3.jpg", "./img/cupcakes/cupcake-4.jpg", "./img/cupcakes/cupcake-5.jpg", "./img/cupcakes/cupcake-6.jpg", "./img/cupcakes/cupcake-7.jpg", "./img/cupcakes/cupcake-8.jpg", "./img/cupcakes/cupcake-9.jpg", "./img/cupcakes/cupcake-10.jpg"]
 
-const others = ["./img/otherDesserts/other-1.jpeg", "./img/otherDesserts/other-2.jpg","./img/otherDesserts/other-3.jpg","./img/otherDesserts/other-4.jpg","./img/otherDesserts/other-5.jpg","./img/otherDesserts/other-6.jpg","./img/otherDesserts/other-7.jpg","./img/otherDesserts/other-8.jpg"]
+const others = ["./img/otherDesserts/other-1.jpg", "./img/otherDesserts/other-2.jpg","./img/otherDesserts/other-3.jpg","./img/otherDesserts/other-4.jpg","./img/otherDesserts/other-5.jpg","./img/otherDesserts/other-6.jpg","./img/otherDesserts/other-7.jpg","./img/otherDesserts/other-8.jpg"]
 
 const products = [
     {
@@ -149,7 +149,7 @@ const products = [
 ]
 
 
-export { cakes, cookies, desserts, others, products }
+export { cakes, cookies, cupcakes, others, products }
 
 
 

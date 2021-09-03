@@ -1,4 +1,4 @@
-import  { cakes, cookies, pies, desserts, others } from '../img'
+import  { cakes, cookies, cupcakes, others } from '../img'
 
 function Gallery(){
     return(
@@ -26,8 +26,8 @@ function Gallery(){
             <div className='gallery-category'>
                 <h3 className='gallery-cat-title'>Cupcakes</h3>
                 <div className='photo-grid-container grid-desserts'>
-                    {desserts.map(dessert => {
-                        return <div className="photo-grid-item"><img src={dessert} /></div>
+                    {cupcakes.map(cupcake => {
+                        return <div className="photo-grid-item"><img src={cupcake} /></div>
                     })}
                 </div>
             </div>
