@@ -1,7 +1,7 @@
 import React from 'react'
-import footerImg1 from '../img/The Pie Factory Icon Elements/SVG/Family Owned Pie.svg'
-import footerImg2 from '../img/The Pie Factory Icon Elements/SVG/Family Owned Texas.svg'
-import footerImg3 from '../img/The Pie Factory Icon Elements/SVG/Fresh Daily.svg'
+import footerImg1 from '../img/logos/Family Owned Pie.svg'
+import footerImg2 from '../img/logos/Family Owned Texas.svg'
+import footerImg3 from '../img/logos/Fresh Daily.svg'
 
 function Footer(){
     const hrStyle = {

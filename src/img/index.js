@@ -1,8 +1,10 @@
 const cakes = ["./img/cakes/cake-1.jpg", "./img/cakes/cake-2.jpg", "./img/cakes/cake-3.jpg", "./img/cakes/cake-4.jpg", "./img/cakes/cake-5.jpg", "./img/cakes/cake-6.jpg", "./img/cakes/cake-7.jpg", "./img/cakes/cake-8.jpg", "./img/cakes/cake-9.jpeg", "./img/cakes/cake-10.jpeg", "./img/cakes/cake-11.jpeg", "./img/cakes/cake-12.jpeg", "./img/cakes/cake-13.jpg"]
 
-const pies = ["./img/pies/pie-1.jpeg", "./img/pies/pie-2.jpeg", "./img/pies/pie-3.jpeg", "./img/pies/pie-4.jpeg", "./img/pies/pie-5.jpeg", "./img/pies/pie-6.jpeg"]
+const cookies = ["./img/cookies/cookie-1.jpeg", "./img/cookies/cookie-2.jpg", "./img/cookies/cookie-3.jpeg", "./img/cookies/cookie-4.jpeg", "./img/cookies/cookie-5.jpg", "./img/cookies/cookie-6.jpeg", "./img/cookies/cookie-7.jpg", "./img/cookies/cookie-8.jpg"]
 
-const desserts = ["./img/desserts/dessert-1.jpeg", "./img/desserts/dessert-2.jpeg", "./img/desserts/dessert-3.jpeg", "./img/desserts/dessert-4.jpeg", "./img/desserts/dessert-5.jpeg", "./img/desserts/dessert-6.jpg", "./img/desserts/dessert-7.jpg", "./img/desserts/dessert-8.jpg", "./img/desserts/dessert-9.jpg", "./img/desserts/dessert-10.jpg", "./img/desserts/dessert-11.jpg", "./img/desserts/dessert-12.jpg"]
+const desserts = ["./img/desserts/dessert-1.jpeg", "./img/desserts/dessert-2.jpeg", "./img/desserts/dessert-3.jpeg", "./img/desserts/dessert-4.jpeg", "./img/desserts/dessert-5.jpeg", "./img/desserts/dessert-6.jpg"]
+
+const others = ["./img/otherDesserts/other-1.jpeg", "./img/otherDesserts/other-2.jpg","./img/otherDesserts/other-3.jpg","./img/otherDesserts/other-4.jpg","./img/otherDesserts/other-5.jpg","./img/otherDesserts/other-6.jpg","./img/otherDesserts/other-7.jpg","./img/otherDesserts/other-8.jpg"]
 
 const products = [
     {
@@ -147,7 +149,7 @@ const products = [
 ]
 
 
-export { cakes, desserts, pies, products }
+export { cakes, cookies, desserts, others, products }
 
 
 
