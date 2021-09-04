@@ -3,6 +3,7 @@ import pieImg from '../img/photos/applepie.jpg'
 import storeImg from '../img/photos/houston.jpg'
 import Carousel from './Carousel.js'
 import {Link} from 'react-router-dom'
+
 function Homepage(){
     return(
         <div className='home-container'>  

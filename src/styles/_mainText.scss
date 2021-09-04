@@ -26,9 +26,21 @@
     // background: #C5D5EA;
     // background: #F7DAD9;
     margin-bottom: 50px;
+    h2{
+        font-size: 2.5rem;
+    }
 }
 a{
     text-decoration: none !important;
+}
+
+.carousel-caption{
+    h3{
+        font-family: thistails;
+    }
+    p{
+        font-family: avenir;
+    }
 }
 
 @media screen and (max-width:600px){

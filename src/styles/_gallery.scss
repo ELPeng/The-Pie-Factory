@@ -41,8 +41,15 @@
 
 .gallery-cat-title{
     font-family: brandonsmith;
+    text-decoration: underline;
     font-size: 3rem;
     display:inline-block;
     margin-left: 10%;
 }
 
+#transition-modal-description{
+    font-family: avenir;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0.5rem 0;
+}

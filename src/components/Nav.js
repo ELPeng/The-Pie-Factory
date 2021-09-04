@@ -14,7 +14,7 @@ function Nav(){
     return(
         <>  
             <div className="top-bar">
-                <a href="javascript:void(0);" className="menu-icon" onClick={handleClick}>
+                <a href="#" className="menu-icon" onClick={handleClick}>
                     <div className="menu-icon-part"></div>
                     <div className="menu-icon-part"></div>
                     <div className="menu-icon-part"></div>
