@@ -5,17 +5,6 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 function Faqs(){
 
-    // const useStyles = makeStyles((theme) => ({
-    //     heading: {
-    //         fontSize: theme.typography.pxToRem(18),
-    //         fontWeight: theme.typography.fontWeightBold,
-    //     },
-    //     tabStyle: {
-    //         padding: "10px 0",
-    //         backgroundColor="#c2b59b",
-    //     }
-    //   }));
-    // const classes = useStyles();
     return(
         <>
             <div className="page-banner">
@@ -118,19 +107,19 @@ function Faqs(){
                         </p>
                     </AccordionDetails>
                 </Accordion>
-
-                <Accordion className="acc-btn">
-                    <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel8a-content"
-                    id="panel8a-header">
-                        <p className="page-text">Does the Pie Factory make special recipes if I wanted to provide my own recipe?</p>
-                    </AccordionSummary>
-                    <AccordionDetails>
-                        <p className="acc-text">
-                        We try our best to accommodate custom recipes, as long as we believe we can make a good product.
-                        </p>
-                    </AccordionDetails>
+                
+                    <Accordion className="acc-btn">
+                        <AccordionSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel8a-content"
+                        id="panel8a-header">
+                            <p className="page-text">Does the Pie Factory make special recipes if I wanted to provide my own recipe?</p>
+                        </AccordionSummary>
+                        <AccordionDetails>
+                            <p className="acc-text">
+                            We try our best to accommodate custom recipes, as long as we believe we can make a good product.
+                            </p>
+                        </AccordionDetails>
                 </Accordion>
         </div>
     </>

@@ -10,12 +10,12 @@ const useStyles = makeStyles((theme) => ({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  paper: {
-    backgroundColor: theme.palette.background.paper,
-    border: '2px solid #000',
-    boxShadow: theme.shadows[5],
-    padding: theme.spacing(0.5, 0.5, 0),
-  },
+//   paper: {
+//     backgroundColor: theme.palette.background.paper,
+//     border: '2px solid #000',
+//     boxShadow: theme.shadows[5],
+//     padding: theme.spacing(0.5, 0.5, 0),
+//   },
   image:{
     maxWidth: '800px'
   },
@@ -52,7 +52,7 @@ const useStyles = makeStyles((theme) => ({
           <div className={classes.paper}>
             {/* <h2 id="transition-modal-title">Transition modal</h2> */}
             <img src={props.imgSrc} className={classes.image}/>
-            <p id="transition-modal-description">react-transition-group animates me.</p>
+            {/* <p id="transition-modal-description">react-transition-group animates me.</p> */}
           </div>
         </Fade>
       </Modal>

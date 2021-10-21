@@ -10,139 +10,139 @@ const products = [
     {
         id: "pie-1",
         name: 'Apple',
-        price: '$20.00',
+        price: '$13.50',
         photo: "./img/pies/apple-pie.jpg",
     },
     {
         id: "pie-2",
         name: 'Black Bottom',
-        price: '$20.00',
+        price: '$13.50',
         photo: "./img/pies/blackbottom-pie.jpg"
     },
     {
         id: "pie-3",
         name: 'Blueberry',
-        price: '$20.00',
+        price: '$14.50',
         photo: "./img/pies/blueberry-pie.jpg"
     },
     {
         id: "pie-4",
         name: 'Boston Cream',
-        price: '$20.00',
+        price: '$13.50',
         photo: "./img/pies/bostoncreme-pie.jpg"
     },
     {
         id: "pie-5",
         name: 'Bourbon Pecan',
-        price: '$20.00',
+        price: '$16.50',
         photo: "./img/pies/bourbonpecan-pie.jpg"
     },
     {
         id: "pie-6",
         name: 'Buttermilk',
-        price: '$20.00',
+        price: '$13.50',
         photo: "./img/pies/buttermilk-pie.jpg"
     },  
     {
         id: "pie-7",
         name: 'Cherry',
-        price: '$20.00',
+        price: '$16.50',
         photo: "./img/pies/cherry-pie.jpg"
     },  
     {
         id: "pie-8",
         name: 'Chocolate Chess',
-        price: '$20.00',
+        price: '$13.50',
         photo: "./img/pies/chocolatechess-pie.jpg"
     },  
     {
         id: "pie-9",
         name: 'Chocolate Meringue',
-        price: '$20.00',
+        price: '$13.50',
         photo: "./img/pies/chocolatemeringue-pie.jpg"
     },  
     {
         id: "pie-10",
         name: 'Coconute Chess',
-        price: '$20.00',
+        price: '$13.50',
         photo: "./img/pies/coconutchess-pie.jpg"
     },  
     {
         id: "pie-11",
         name: 'Coconut Cream',
-        price: '$20.00',
+        price: '$13.50',
         photo: "./img/pies/coconutcream-pie.jpg"
     },  
     {
         id: "pie-12",
         name: 'Coconut Meringue',
-        price: '$20.00',
+        price: '$13.50',
         photo: "./img/pies/coconutmeringue-pie.jpg"
     },  
     {
         id: "pie-13",
         name: 'Dutch Blueberry',
-        price: '$20.00',
+        price: '$14.50',
         photo: "./img/pies/dutchblueberry-pie.jpg"
     },  
     {
         id: "pie-14",
         name: 'Egg Custard',
-        price: '$20.00',
+        price: '$13.50',
         photo: "./img/pies/eggcustard-pie.jpg"
     },  
     {
         id: "pie-15",
         name: 'Key Lime',
-        price: '$20.00',
+        price: '$17.50',
         photo: "./img/pies/keylime-pie.jpg"
     },  
     {
         id: "pie-16",
         name: 'Lemon Chess',
-        price: '$20.00',
+        price: '$13.50',
         photo: "./img/pies/lemonchess-pie.jpg"
     },  
     {
         id: "pie-17",
         name: 'Lemon Meringue',
-        price: '$20.00',
+        price: '$13.50',
         photo: "./img/pies/lemonmeringue-pie.jpg"
     },  
     {
         id: "pie-18",
         name: 'Pecan',
-        price: '$20.00',
+        price: '$15.50',
         photo: "./img/pies/pecan-pie.jpg"
     },  
     {
         id: "pie-19",
         name: 'Pumpkin',
-        price: '$20.00',
+        price: '$13.50',
         photo: "./img/pies/pumpkin-pie.jpg"
     },  
     {
         id: "pie-20",
         name: 'Pumpkin Cheesecake',
-        price: '$20.00',
+        price: '$14.50',
         photo: "./img/pies/pumpkincheese-pie.jpg"
     },  
     {
         id: "pie-21",
         name: 'Strawberry',
-        price: '$20.00',
+        price: '$17.50',
         photo: "./img/pies/strawberry-pie.jpg"
     },  
     {
         id: "pie-22",
         name: 'Strawberry Rhubarb',
-        price: '$20.00',
+        price: '$17.50',
         photo: "./img/pies/strawberryrhubarb-pie.jpg"
     },  
     {
         id: "pie-23",
         name: 'Sweet Potato',
-        price: '$20.00',
+        price: '$14.50',
         photo: "./img/pies/swtpotato-pie.jpg"
     },  
 

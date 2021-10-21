@@ -3,6 +3,7 @@ import  TransitionsModal from  './Modal'
 import  { cakes, cookies, cupcakes, others } from '../img'
 
 function Gallery(){
+    // If view mode is desktop, allows each gallery image to be bring up a modal when clicked. On mobile, this feature is disabled.
     const [isDesktop, setIsDesktop] = useState(true)
 
     const updateViewMode = () => {
@@ -22,39 +23,6 @@ function Gallery(){
             <div className="page-banner">
                 <h2>Gallery</h2>
             </div>
-
-            {/* <div className='gallery-category'>
-                <h3 className='gallery-cat-title'>Cakes</h3>
-                <div className='photo-grid-container grid-cakes'>
-                    {cakes.map(cake => {
-                        return <div className="photo-grid-item"><img src={cake} /></div>
-                    })}
-                </div>
-            </div>
-            <div className='gallery-category'>
-                <h3 className='gallery-cat-title'>Cookies</h3>
-                <div className='photo-grid-container grid-desserts'>
-                    {cookies.map(cookie => {
-                        return <div className="photo-grid-item"><img src={cookie} /></div>
-                    })}
-                </div>
-            </div>
-            <div className='gallery-category'>
-                <h3 className='gallery-cat-title'>Cupcakes</h3>
-                <div className='photo-grid-container grid-desserts'>
-                    {cupcakes.map(cupcake => {
-                        return <div className="photo-grid-item"><img src={cupcake} /></div>
-                    })}
-                </div>
-            </div>
-            <div className='gallery-category'>
-                <h3 className='gallery-cat-title'>Other Desserts (Tarts + more!)</h3>
-                <div className='photo-grid-container grid-desserts'>
-                    {others.map(other => {
-                        return <div className="photo-grid-item"><img src={other} /></div>
-                    })}
-                </div>
-            </div> */}
 
             <div className='gallery-category'>
                 <h3 className='gallery-cat-title'>Cakes</h3>
