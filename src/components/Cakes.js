@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Button, ButtonGroup } from '@material-ui/core'
+import { NavLink } from 'react-router-dom'
 
 const Cakes = () => {
     const [cakeType, setCakeType] = useState('white')
@@ -45,15 +46,18 @@ const Cakes = () => {
                 return cake.carrotPrice
         }
     }
-    
-    // Updates the cake card backgrounds based on type of Cake
-    let labelStyle, priceContainerStyle
+
+    // Updates the cake card and button colors based on type of Cake
+    let labelStyle, priceContainerStyle, whiteButtonStyle, chocButtonStyle, carrotButtonStyle
     if (cakeType == 'carrot'){
         labelStyle = {
             background: '#ED7014'
         }
         priceContainerStyle = {
             background: 'rgba(255,165,0, 0.2)',
+        }
+        carrotButtonStyle = {
+            background: 'rgba(255,165,0, 0.2)'
         }
     }
     else if(cakeType == 'chocolate'){
@@ -63,12 +67,18 @@ const Cakes = () => {
         priceContainerStyle = {
             background: 'rgba(165, 42, 42, 0.2)',
         }
+        chocButtonStyle = {
+            background: 'rgba(165, 42, 42, 0.2)'
+        }
     }
     else{
         labelStyle = {
             background: '#565656'
         }
         priceContainerStyle = {
+            background: 'rgba(255,253,208, 0.8)'
+        }
+        whiteButtonStyle = {
             background: 'rgba(255,253,208, 0.8)'
         }
     }
@@ -86,10 +96,10 @@ const Cakes = () => {
             <div className="decorated-cakes-container">
                 <h3>Decorated Cakes ({cakeType})</h3>
                 <p style={textStyle}>Select white, chocolate, or carrot to see pricing for standard cake sizes. Custom decoration is available at an additional charge. Call or email for a custom decoration quote.</p>
-                <ButtonGroup className="cake-buttons" size="large">
-                    <Button onClick={() => setCakeType('white')}>White</Button>
-                    <Button onClick={() => setCakeType('chocolate')}>Chocolate</Button>
-                    <Button onClick={() => setCakeType('carrot')}>Carrot</Button>
+                <ButtonGroup size="large">
+                    <Button style={whiteButtonStyle} onClick={() => setCakeType('white')}>White</Button>
+                    <Button style={chocButtonStyle} onClick={() => setCakeType('chocolate')}>Chocolate</Button>
+                    <Button style={carrotButtonStyle} onClick={() => setCakeType('carrot')}>Carrot</Button>
                 </ButtonGroup>
                 <div className="dec-cakes-prices-container">
                     {cakes.map(cake => (

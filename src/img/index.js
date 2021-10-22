@@ -46,7 +46,7 @@ const products = [
     {
         id: "pie-7",
         name: 'Cherry',
-        price: '$16.50',
+        price: '$14.50',
         photo: "./img/pies/cherry-pie.jpg"
     },  
     {

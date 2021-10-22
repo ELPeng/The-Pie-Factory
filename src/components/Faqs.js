@@ -69,20 +69,6 @@ function Faqs(){
                 <Accordion className="acc-btn">
                     <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel5a-content"
-                    id="panel5a-header">
-                        <p className="page-text">Does the Pie Factory sell to retail customers</p>
-                    </AccordionSummary>
-                    <AccordionDetails>
-                        <p className="acc-text">
-                            Orders MUST be in by 12:00 noon, the day before scheduled delivery. Late orders or un-scheduled deliveries may incur extra delivery charges. Call for more information.
-                        </p>
-                    </AccordionDetails>
-                </Accordion>
-
-                <Accordion className="acc-btn">
-                    <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel6a-content"
                     id="panel6a-header">
                         <p className="page-text">How do I get quotes or place an order for a specialty cake?</p>

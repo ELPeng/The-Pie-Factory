@@ -14,9 +14,13 @@
     }
 }
 
-.cake-buttons{
-    margin-bottom: 20px;
+
+.cake-button{
+    &:hover{
+        background: #565656;
+    }
 }
+
 .decorated-cakes-container{
     display: flex;
     flex-direction: column;
@@ -30,6 +34,7 @@
     flex-direction: row;
     justify-content: space-around;
     width: 768px;
+    padding-top: 20px;
 }
 
 .decorated-cake-card{
