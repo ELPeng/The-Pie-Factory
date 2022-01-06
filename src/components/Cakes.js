@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Button, ButtonGroup } from '@material-ui/core'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Cakes = () => {
     const [cakeType, setCakeType] = useState('white')
@@ -119,7 +119,7 @@ const Cakes = () => {
             
             <div className="standard-cakes-container">
                 <h3>8" Two Layer Cakes</h3>
-                <p style={textStyle}>Cake photos coming soon! In the meantime, please see our <a href="/gallery">gallery</a> for custom dessert photos</p>
+                <p style={textStyle}>Cake photos coming soon! In the meantime, please see our <Link to="/gallery">gallery</Link> for custom dessert photos</p>
                 <div className="standard-cakes-list">
                     <ul>
                         <li>
